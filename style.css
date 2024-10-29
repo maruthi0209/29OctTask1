@@ -19,23 +19,56 @@
     font-size: 2rem;
 }
 
-img {
+.img1 {
     display: block;
     position: relative;
     top:15%;
     left: 25%;
-    transition: all 5s;
+    /* transition: all 8s; */
 }
+/* .img2 {
+    display: block;
+    position: relative;
+    top:15%;
+    left: 25%;
+    transition: all 6s;
+}
+.img3 {
+    display: block;
+    position: relative;
+    top:15%;
+    left: 25%;
+    transition: all 4s;
+}
+.img4 {
+    display: block;
+    position: relative;
+    top:15%;
+    left: 25%;
+    transform: rotate(360deg);    
+    transition: all 2s;
+} */
 
-.speed1:hover~img , .speed2:hover~img , .speed3:hover~img, .speed4:hover~img{
+.speed1:hover~.img1  /*.speed2:hover~img , .speed3:hover~img, .speed4:hover~img */{
+    /* display: block;
+    position: relative;
+    top:15%;
+    left: 25%; */
     transform: rotate(360deg);
+    transition: 8s;
+    /* z-index: 1; */
 }
-/* .speed2:hover~img{
+.speed2:hover~img{
     transform: rotate(360deg);
-} 
-.speed3:hover~img {
+    transition: 6s;
+}
+.speed3:hover~img{
     transform: rotate(360deg);
+    transition: 4s;
 }
 .speed4:hover~img{
     transform: rotate(360deg);
-} */
+    transition: 2s;
+}
+
+
